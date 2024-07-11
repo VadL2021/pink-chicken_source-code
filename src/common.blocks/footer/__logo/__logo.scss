@@ -1,0 +1,9 @@
+.__logo {
+    position: relative;
+    width: 220px;
+    height: 32px;
+    user-select: none;
+    &-image {
+        user-select: none;
+    }
+}    

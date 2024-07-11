@@ -1,0 +1,18 @@
+.__user {
+    width: 270px;
+    height: 40px;
+    &-ico {
+        float: left;
+        user-select: none;
+    }
+    &-mailbox {
+        margin-top: 9px;
+        left: 10px;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.78px;
+        text-align: left;
+    }
+}
+

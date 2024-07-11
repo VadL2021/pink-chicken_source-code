@@ -1,0 +1,25 @@
+.__language-selector {
+    position: relative;
+    width: 220px;
+    height: 32px;
+    user-select: none;
+    &-image {
+        user-select: none;
+    }
+}    
+.__language-selector-image-ico{
+    left:30px;
+}
+.__language-selector-image-RU{
+    left:50px;
+    bottom:6px;
+}
+.__language-selector-image-EN{
+    left:80px;
+    bottom:7px;
+}
+.__language-selector-image-TUR{
+    left:110px;
+    bottom:6px;
+
+}

@@ -1,0 +1,38 @@
+.footer{
+    position: absolute;
+    margin:0;
+    padding:0;
+    bottom: 0; left: 0; right: 0;
+    z-index: 1;
+    height: 95px;
+    margin-bottom: 0;
+    background-color: #EBEBEB; 
+    top: 100vh;
+    
+}
+.wrapper{
+    display: flex;
+    direction: row;
+    justify-content: baseline;
+}
+.footer-logo{
+    margin-left: 10.5%;
+    margin-top: 32px;
+}
+.footer-privacy-policy{
+    margin-left: 9.57%;
+    margin-top: 37px;
+}
+.footer-mail-box{
+    margin-left: 6.64%;
+    margin-top: 36px;
+}
+.footer-language-selector{
+    margin-left: 7.64%;
+    margin-top: 36px;
+}
+.footer-social-networks{
+    margin-left: 7.64%;
+    margin-top: 28px;
+
+}

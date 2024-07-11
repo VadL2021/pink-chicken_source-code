@@ -1,0 +1,37 @@
+.dashboard {
+    position: relative;
+    margin-top: 20px;
+    width: 253px;
+    height: 42px;
+    display: flex;
+    direction: row;
+    justify-content: baseline;
+    background-color: #F5F5F5;
+    
+    &__ico{
+        position: relative;
+    }
+    &__download-button-ico{
+        position: absolute;
+        right:0;
+        width: 42;
+        height: 42;
+        &:active{
+            opacity:60%;
+        }
+    }
+    &__loading-ico{
+        position: relative;
+        width: 42;
+        height: 42;
+        margin-left: auto;
+    }
+}
+.dashboard__company-name{
+    margin-left: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    line-height: 42px;
+    vertical-align: center;
+}

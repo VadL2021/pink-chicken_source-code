@@ -1,0 +1,20 @@
+.__income-indicator{
+    width: 90px;
+    height: 40px;
+    &-ico {
+        float: left;
+        user-select: none;
+    }
+    &-percentage {
+        top: 9px;
+        left: 8px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.78px;
+        text-align: left;
+    }
+}
+
+

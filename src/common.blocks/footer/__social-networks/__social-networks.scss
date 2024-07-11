@@ -1,0 +1,20 @@
+.__social-networks {
+    position: relative;
+    width: 220px;
+    height: 32px;
+    user-select: none;
+    &-image {
+        user-select: none;
+    }
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21.75px;
+    text-align: left;
+}    
+.__social-networks-image-telegram{
+    left:150px
+}
+.__social-networks-image-whats-up{
+    left:200px
+}

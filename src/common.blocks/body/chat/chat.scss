@@ -1,0 +1,88 @@
+.chat{
+    @media (min-width: 1620px) {
+        position: relative; 
+        right:0;
+        width: 875px;
+        height: 709px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 30px 0px #00000014;
+    }
+        @media (max-width: 1620px) {
+        position: relative; 
+        margin:auto;
+        margin-top: 20px;
+        right:0;
+        width: 875px;
+        height: 709px;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 0px 30px 0px #00000014;
+    }
+}
+.text {
+    position: relative;
+    margin-top: 28px;
+    margin-left: 28px;
+    width: 226px;
+    height: 29px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+}
+.name {  
+    position: relative;
+    margin-left: auto;
+    margin-top: 37px;
+    width: 98px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18.15px;
+    text-align: left; 
+        
+}
+.mailBox {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 37px;
+    width: 190px;
+    height: 18px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.15px;
+    text-align: left;
+}
+.chat-header__wrapper {
+    position: relative;
+    height: 40px;
+    display: flex;
+    direction: row;
+    justify-content: baseline;
+}
+.chat_feedback{
+    position: relative;
+    margin-left:10px;
+    margin-right:28px;
+    margin-top:26px;
+}
+.chat_gallery{
+    position: relative;
+    left:92px;
+    bottom:44px;
+}
+.chat_add-folder{
+    position: relative;
+    left:48px;
+    bottom:72px;
+}
+.chat_enter {
+    position: absolute;
+    right:48px;
+    bottom:56px; 
+}
+

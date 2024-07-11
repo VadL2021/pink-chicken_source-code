@@ -1,0 +1,35 @@
+.header{
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 35px auto 0 auto;
+    z-index: 1;
+    width: 1200px;
+    @media (max-width: 1620px) {
+        width: 875px;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    background-color: #F5F5F5;
+    &__revenue {
+        margin-left: auto;
+    }
+    &__settings {
+        margin-left: 10px;
+    }
+    &__logout-button {
+        margin-left: 12px;
+    }
+    @media (max-width: 1620px) {
+        &__revenue {
+            margin-left: 40px
+        }
+        &__user {
+            margin-left: 80px
+        }
+        &__logout-button {
+            margin-left: 80px
+        }
+    }
+}

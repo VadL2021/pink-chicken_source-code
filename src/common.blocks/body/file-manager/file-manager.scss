@@ -1,0 +1,17 @@
+.file-manager {
+    position: relative;
+    height: 709px;
+    width: 295px;
+    border-radius: 20px;
+    background-color: #FFFFFF; 
+    box-shadow: 0px 0px 30px 0px #00000014;   
+    @media (max-width: 1620px) {
+      margin: auto;
+      width: 875px;
+      height: 505px;
+      display: flex;
+      flex-direction: baseline;
+      justify-content: center;
+      gap: 20px;
+    }
+}
